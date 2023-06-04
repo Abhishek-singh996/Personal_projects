@@ -9,7 +9,7 @@ def generate_data(n_books = 3000, n_genres = 10, n_authors = 450, n_publishers =
         'reader_id':[randint(1,n_readers) for _ in range(dataset_size)],
         'num_pages':[randint(75,100) for _ in range(dataset_size)],
         'book_rating':[randint(1,10) for _ in range(dataset_size)],
-        'unlisher_id':[randint(1,n_publishers) for _ in range(dataset_size)],
+        'publisher_id':[randint(1,n_publishers) for _ in range(dataset_size)],
         'publisher_year':[randint(2000,2023) for _ in range(dataset_size)],
         'book_price' : [randint(1, 200) for _ in range(dataset_size)],
         'text_lang' : [randint(1,7) for _ in range(dataset_size)]
