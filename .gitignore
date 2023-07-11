@@ -154,3 +154,5 @@ cython_debug/
 
 e
 .DS_Store
+hyperparameter Tuning/archive.zip
+hyperparameter Tuning/creditcard.csv
